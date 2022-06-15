@@ -1,0 +1,28 @@
+[{
+    "name": "Anik",
+    "phone": "01766",
+    "email": "anik@g.com",
+    "address": "Dhaka",
+    "password": "0123"
+},
+{
+    "name": "Rahim",
+    "phone": "01211",
+    "email": "rahim@g.com",
+    "address": "Dhaka",
+    "password": "0000"
+},
+{
+    "name": "Rabbi",
+    "phone": "01759",
+    "email": "rabbi@g.com",
+    "address": "Khulna",
+    "password": "9292"
+},
+{
+    "name": "Moyna",
+    "phone": "01822",
+    "email": "moyna@g.com",
+    "address": "Faridpur",
+    "password": "0011"
+}]

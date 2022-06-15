@@ -1,0 +1,45 @@
+### sign up 
+POST http://localhost:3000/api/v1/auth/signup
+Content-Type: application/json
+
+{
+    "name": "Rabbi",
+    "phone": "01759",
+    "email": "rabbi@g.com",
+    "address": "Khulna",
+    "password": "9292"
+}
+
+### log in 
+POST http://localhost:3000/api/v1/auth/login
+Content-Type: application/json
+
+{
+    "phone": "01766",
+    "password": "0123"
+}
+
+### User By Current Token
+GET http://localhost:3000/api/v1/auth/current-user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDdlYTQ1NjBhNGYyMjA0OTQ3MmM5ZDgiLCJpYXQiOjE2MTg5MTk4OTF9.f4oey3CdzTt-IChP-d6TUjZIpQEkFU8ONk3S_gGIYcQ
+
+### 
+GET http://localhost:3000/api/v1/user/list
+
+###
+GET http://localhost:3000/api/v1/user/selected
+Content-Type: application/json
+
+{"ids" : [
+    "607ea4560a4f22049472c9d8",
+    "6085d606b2ca50279831f219"
+]}
+
+###
+GET http://localhost:3000/api/v1/user/selected_by_phone_no
+Content-Type: application/json
+
+{"phone" : [
+    "01766",
+    "01759"
+]}
